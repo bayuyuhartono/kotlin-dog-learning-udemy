@@ -9,8 +9,6 @@ import androidx.recyclerview.widget.RecyclerView
 import bayu.learnprogramming.dog.R
 import bayu.learnprogramming.dog.databinding.ItemDogBinding
 import bayu.learnprogramming.dog.model.DogBreed
-import bayu.learnprogramming.dog.util.getProgressDrawable
-import bayu.learnprogramming.dog.util.loadImage
 import kotlinx.android.synthetic.main.item_dog.view.*
 
 class DogsListAdapter(val dogsList: ArrayList<DogBreed>): RecyclerView.Adapter<DogsListAdapter.DogViewHolder>(), DogClickListener {
